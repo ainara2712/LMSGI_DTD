@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id ="actor1">
+            <nom>Hilary Duff</nom>
+            <edat>28-09-1987</edat>
+        </actor>
+        <actor id ="actor2">
+            <nom>Chad Michael Murray</nom>
+        </actor>
+        <actor id="actor3">
+            <nom>Gabriel Guevara Mourreau </nom>
+            <edat>06-02-2001</edat>
+        </actor>
+    </llista_actors>
+
+
+    <llista_pelicules>
+        <pelicula id ="pelicula1">
+            <titol>Una Cinicienta Moderna</titol>
+            <director>Mark Rosman</director>
+            <any>2004</any>
+            <actors>
+                </actor_ref ref="actor1">
+                </actor_ref ref="actor2">
+            </actor>
+        </pelicula>
+        <pelicula id ="pelicula2">
+            <titol>Culpa tuya</titol>
+            <director>Domingo González</director>
+            <any>2023</any>
+            <actors>
+                </actor_ref ref="actor3">
+            </actor>
+        </pelicula> 
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="pelicula1"/>
+        <recomanacio ref="pelicula2"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
+
+
+
+
